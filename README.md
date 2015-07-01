@@ -40,9 +40,9 @@ You’ve been working hard on your code and you run your application. And then y
     print 'Hello, world!' - 8</br>
 TypeError: cannot concatenate 'str' and 'int' objects</kbd>
 
-+ The name of the file that where the error happened, in this case helloworld.py
-+ The line number of the error in this case the error in line 6.These two pieces of info give you a pretty good hint as to where you should look.
-+ The actual error, in this case a TypeError caused by trying to concatenate str and int objects. (cannot concatenate 'str' and 'int' objects)
+1. The name of the file that where the error happened, in this case helloworld.py
+2. The line number of the error in this case the error in line 6.These two pieces of info give you a pretty good hint as to where you should look.
+3. The actual error, in this case a TypeError caused by trying to concatenate str and int objects. (cannot concatenate 'str' and 'int' objects)
 
 
 + Fix the error and reload the page.
