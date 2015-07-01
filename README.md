@@ -17,7 +17,7 @@ One of the most important things you'll need to know is how to find and fix bugs
 
 #Lesson: Debugging
 **Code Along!**
-1. Add an error to your python script in your helloworld.py file, something like...
++ Add an error to your python script in your helloworld.py file, something like...
 
 ```python
 print 'Content-Type: text/plain'
@@ -31,9 +31,9 @@ Save then Reload the page. You should either see an HTTP 500 Server Error or you
 
 You’ve been working hard on your code and you run your application. And then you see...**AN ERROR MESSAGE**. Breathe. Don’t panic. Ignore all thoughts of doom. The process of writing code is the process of debugging. As a programmer, you will always be looking for bugs to fix. Have no fear! Your error message is actually a message that’s pointing you to your next step.
 
-2. In your GoogleAppEngineLauncher window, press the **Logs** button. The Log Console window will open up. You should see your error message for the script you just wrote.
++ In your GoogleAppEngineLauncher window, press the **Logs** button. The Log Console window will open up. You should see your error message for the script you just wrote.
 
-3. Find the error line. This gives you a stack trace, just like errors in normal Python programs. In larger programs, you'll typically see much more information, but you should look for three things specifically:
++ Find the error line. This gives you a stack trace, just like errors in normal Python programs. In larger programs, you'll typically see much more information, but you should look for three things specifically:
 
 <kbd style="color:red">ERROR    2015-06-17 22:19:45,960 cgi.py:122] Traceback (most recent call last):</br>
   File "/Users/Development/appengine_practice/helloworld.py", line 6, in module</br>
@@ -45,7 +45,7 @@ TypeError: cannot concatenate 'str' and 'int' objects</kbd>
 + The actual error, in this case a TypeError caused by trying to concatenate str and int objects. (cannot concatenate 'str' and 'int' objects)
 
 
-4. Fix the error and reload the page.
++ Fix the error and reload the page.
 
 You will become very comfortable checking the logs and finding errors: you will probably be doing lots of this as you write your apps. The quicker you are at tracking down bugs, the less time you'll spend debugging and the more time you can spend building awesome apps.
 
