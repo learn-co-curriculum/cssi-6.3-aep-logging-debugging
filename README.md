@@ -93,7 +93,7 @@ Logging is a means of tracking events that happen when a program runs.The loggin
 ```python
 logging.info('Hello, logs!')
 ```
-4. Reload the page and check the log console to find your message!!
+Reload the page and check the log console to find your message!!
 
 #Partner Programming Logging Exercise 1:
 Try copy and pasting this script into helloworld.py:
