@@ -76,7 +76,7 @@ logging.info('Hello, doing some logging!')
 ```
 Once the page is reloaded, the logging statement will appear in the log console.
 
-#Partner Programming Logging Exercise 1:
+#Partner Programming  Exercise 3:
 Try copy and pasting this script into main.py:
 ```python
 import logging
